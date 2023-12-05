@@ -12,7 +12,7 @@ st.set_page_config("Dann2.0 Assistant1234", initial_sidebar_state="collapsed", l
 
 #1. Login and Page Setup
 if lg.check_authentication():
-    ps.set_title("FEOC", "FEOC Assistant")
+    ps.set_title("Dann2.0", "UTSI Assistant")
     ps.set_page_overview("Overview", "**Dann2.0 Assistant** provides a way to quickly ask about UTSI")
 
 #2. Variable Setup
