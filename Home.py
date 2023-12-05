@@ -8,12 +8,12 @@ import uuid
 
 
 #0. Page Config
-st.set_page_config("FEOC Assistant1234", initial_sidebar_state="collapsed", layout="wide")
+st.set_page_config("Dann2.0 Assistant1234", initial_sidebar_state="collapsed", layout="wide")
 
 #1. Login and Page Setup
 if lg.check_authentication():
     ps.set_title("FEOC", "FEOC Assistant")
-    ps.set_page_overview("Overview", "**FEOC Assistant** provides a way to quickly ask about the FEOC")
+    ps.set_page_overview("Overview", "**Dann2.0 Assistant** provides a way to quickly ask about UTSI")
 
 #2. Variable Setup
 
@@ -31,7 +31,7 @@ if lg.check_authentication():
 
     if "messages" not in st.session_state: #stores messages of the assistant
         st.session_state.messages = []
-        st.chat_message("assistant").markdown("I am your FEOC assistant. How may I help you?")
+        st.chat_message("assistant").markdown("I am Dann2.0. How may I help you?")
     if "retry_error" not in st.session_state: #used for error handling
         st.session_state.retry_error = 0
 
